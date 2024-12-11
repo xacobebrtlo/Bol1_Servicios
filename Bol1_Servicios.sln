@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bol1_Servicios", "Bol1_Servicios\Bol1_Servicios.csproj", "{3FDB3E37-682D-47EF-81A3-B68596797BC7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejer1", "Bol1_Servicios\Ejer1.csproj", "{3FDB3E37-682D-47EF-81A3-B68596797BC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejerc2", "Ejerc2\Ejerc2.csproj", "{022E00E5-E985-4964-996D-AEB38CC6F18F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejer2", "Ejerc2\Ejer2.csproj", "{022E00E5-E985-4964-996D-AEB38CC6F18F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej4", "Ej4\Ej4.csproj", "{789CC314-038E-47A6-B523-CE65E660C4EA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejer4", "Ej4\Ejer4.csproj", "{789CC314-038E-47A6-B523-CE65E660C4EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej5", "Ej5\Ej5.csproj", "{678AF648-C9F5-49E4-A577-250704D64364}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejer5", "Ej5\Ejer5.csproj", "{678AF648-C9F5-49E4-A577-250704D64364}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejer6", "MyTimer\Ejer6.csproj", "{40E1336B-FCA1-4E81-82B0-E5FBBDA13907}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejer3", "Ejer3\Ejer3.csproj", "{C3EA6838-2D97-455A-B5F0-4D6E8F811D1C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{678AF648-C9F5-49E4-A577-250704D64364}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{678AF648-C9F5-49E4-A577-250704D64364}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{678AF648-C9F5-49E4-A577-250704D64364}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40E1336B-FCA1-4E81-82B0-E5FBBDA13907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40E1336B-FCA1-4E81-82B0-E5FBBDA13907}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40E1336B-FCA1-4E81-82B0-E5FBBDA13907}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40E1336B-FCA1-4E81-82B0-E5FBBDA13907}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3EA6838-2D97-455A-B5F0-4D6E8F811D1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3EA6838-2D97-455A-B5F0-4D6E8F811D1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3EA6838-2D97-455A-B5F0-4D6E8F811D1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3EA6838-2D97-455A-B5F0-4D6E8F811D1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
