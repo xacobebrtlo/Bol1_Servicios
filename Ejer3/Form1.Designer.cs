@@ -28,8 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtbName = new System.Windows.Forms.TextBox();
             this.btnProcess = new System.Windows.Forms.Button();
             this.btnInfo = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
@@ -40,19 +41,19 @@
             // 
             // textBox1
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.textBox1.Font = new System.Drawing.Font("Lucida Console", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(12, 12);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(456, 426);
             this.textBox1.TabIndex = 0;
             // 
-            // textBox2
+            // txtbName
             // 
-            this.textBox2.Location = new System.Drawing.Point(489, 51);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 1;
+            this.txtbName.Location = new System.Drawing.Point(489, 51);
+            this.txtbName.Name = "txtbName";
+            this.txtbName.Size = new System.Drawing.Size(100, 20);
+            this.txtbName.TabIndex = 1;
             // 
             // btnProcess
             // 
@@ -72,6 +73,7 @@
             this.btnInfo.TabIndex = 3;
             this.btnInfo.Text = "Process info";
             this.btnInfo.UseVisualStyleBackColor = true;
+            this.btnInfo.Click += new System.EventHandler(this.btnInfo_Click);
             // 
             // btnClose
             // 
@@ -81,6 +83,7 @@
             this.btnClose.TabIndex = 4;
             this.btnClose.Text = "Close Process";
             this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // btnKill
             // 
@@ -90,6 +93,7 @@
             this.btnKill.TabIndex = 5;
             this.btnKill.Text = "Kill Process";
             this.btnKill.UseVisualStyleBackColor = true;
+            this.btnKill.Click += new System.EventHandler(this.btnKill_Click);
             // 
             // btnApp
             // 
@@ -99,6 +103,7 @@
             this.btnApp.TabIndex = 6;
             this.btnApp.Text = "Run App";
             this.btnApp.UseVisualStyleBackColor = true;
+            this.btnApp.Click += new System.EventHandler(this.btnApp_Click);
             // 
             // btnStart
             // 
@@ -108,6 +113,7 @@
             this.btnStart.TabIndex = 7;
             this.btnStart.Text = "Starts With";
             this.btnStart.UseVisualStyleBackColor = true;
+            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
             // Form1
             // 
@@ -120,8 +126,9 @@
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnInfo);
             this.Controls.Add(this.btnProcess);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtbName);
             this.Controls.Add(this.textBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "TaskManager";
             this.ResumeLayout(false);
@@ -132,7 +139,7 @@
         #endregion
 
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtbName;
         private System.Windows.Forms.Button btnProcess;
         private System.Windows.Forms.Button btnInfo;
         private System.Windows.Forms.Button btnClose;
